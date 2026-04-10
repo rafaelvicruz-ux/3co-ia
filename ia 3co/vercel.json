@@ -1,0 +1,22 @@
+{
+  "name": "3co ia",
+  "version": "1.0.0",
+  "description": "Um sistema multi-agente com OpenAI, Node.js e Vercel.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^4.96.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "vercel": "^37.6.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
